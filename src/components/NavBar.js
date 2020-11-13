@@ -50,11 +50,11 @@ export default function ButtonAppBar() {
           <div style={{width:'40%'}}></div>
           <div>
           <Typography variant="h6" className={classes.title}>
-            <Link to="/starships" >About Me</Link>
+            <Link to="/about" >About Me</Link>
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
-            <Link to="/vehicles" >Portfolio</Link>
+            <Link to="/portfolio" >Portfolio</Link>
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
-            <Link to="/species" >Resume</Link>
+            <Link to="/resume" >Resume</Link>
           </Typography>
           </div>
         {/* </Toolbar> */}

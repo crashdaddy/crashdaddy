@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import "../App.css"
 import {Link} from 'react-router-dom';
+import crashdaddy from './crashdaddy.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,7 +43,10 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar className={classes.shadow} position="static">
         {/* <Toolbar> */}
-          <div>
+          <div style={{display:'flex'}}>
+          <Link to="/" >
+          <img src={crashdaddy} style={{height:'40px',width:'40px',borderRadius:'50%',float:'left',display:'inline'}} />
+          </Link>  
           <Typography variant="h6" className={classes.title}>
             crashdaddy
           </Typography>

@@ -5,6 +5,8 @@ import bier from './bier2.png';
 import hangman from './hangmanprog2.png';
 import puzlr from './puzzley19.png';
 import phonodex from './phonodex2.png';
+import swars from './swarsapi3.png';
+import pnn from './pnn7.png';
 import { Link } from '@material-ui/core';
 
 class Portfolio extends Component {
@@ -37,6 +39,16 @@ class Portfolio extends Component {
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
                     <Link href="https://phonodex.herokuapp.com/">    
                     <img src={phonodex} style={{width:'300px'}} alt=''/>
+                    </Link>
+                </Paper>
+                <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
+                    <Link href="https://swarsapi.herokuapp.com/">    
+                    <img src={swars} style={{width:'300px'}} alt=''/>
+                    </Link>
+                </Paper>
+                <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
+                    <Link href="https://patheticnews.herokuapp.com/">    
+                    <img src={pnn} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
              </div>

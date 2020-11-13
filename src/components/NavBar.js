@@ -12,7 +12,8 @@ const useStyles = makeStyles((theme) => ({
     zIndex:2,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: "5px",
+    // marginRight: theme.spacing(2),
   },
   title: {
     flexGrow: 1,
@@ -26,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
     boxShadow:         '0px 5px 5px 0px rgba(220, 220, 220, 0.25)',
     backgroundColor:'white',borderBottom:'1px solid grey',
     fontFamily: 'montserrat',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'row nowrap',
+    justifyContent: 'space-around',
   }
 
 }));
@@ -36,10 +41,14 @@ export default function ButtonAppBar() {
   return (
     <div className={classes.root}>
       <AppBar className={classes.shadow} position="static">
-        <Toolbar>
+        {/* <Toolbar> */}
+          <div>
           <Typography variant="h6" className={classes.title}>
             crashdaddy
           </Typography>
+          </div>
+          <div style={{width:'40%'}}></div>
+          <div>
           <Typography variant="h6" className={classes.title}>
             <Link to="/starships" >About Me</Link>
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
@@ -47,7 +56,8 @@ export default function ButtonAppBar() {
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
             <Link to="/species" >Resume</Link>
           </Typography>
-        </Toolbar>
+          </div>
+        {/* </Toolbar> */}
       </AppBar>
     </div>
   );

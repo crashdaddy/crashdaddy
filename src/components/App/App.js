@@ -10,7 +10,7 @@ class App extends Component {
                 A long time ago, in a galaxy far far away...<br/>
                 we built an app <br/>
                 and we called it...<br/>
-                <span style={{fontSize:'100px'}}>Crashdaddy</span>
+                <span style={{fontSize:'100px'}}>crashdaddy</span>
             </div>
 
         )

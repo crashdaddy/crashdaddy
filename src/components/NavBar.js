@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
       <AppBar className={classes.shadow} position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Crashdaddy
+            crashdaddy
           </Typography>
           <Typography variant="h6" className={classes.title}>
             <Link to="/starships" >About Me</Link>

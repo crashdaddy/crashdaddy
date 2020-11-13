@@ -17,37 +17,37 @@ class Portfolio extends Component {
             <div style={{textAlign:'center',marginTop:'40px',marginBottom:'50px',display:"flex",flexWrap:'wrap',justifyContent:'space-around'}}>
                 
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="http://covidupdater.herokuapp.com/">
+                    <Link href="http://covidupdater.herokuapp.com/" target="blank">
                     <img src={covid} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="https://bierbitte.herokuapp.com/">
+                    <Link href="https://bierbitte.herokuapp.com/" target="blank">
                     <img src={bier} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="https://hangmanfun.netlify.app/">
+                    <Link href="https://hangmanfun.netlify.app/" target="blank">
                     <img src={hangman} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="https://puzlr.herokuapp.com/">    
+                    <Link href="https://puzlr.herokuapp.com/" target="blank">    
                     <img src={puzlr} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="https://phonodex.herokuapp.com/">    
+                    <Link href="https://phonodex.herokuapp.com/" target="blank">    
                     <img src={phonodex} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="https://swarsapi.herokuapp.com/">    
+                    <Link href="https://swarsapi.herokuapp.com/" target="blank">    
                     <img src={swars} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>
                 <Paper elevation={3} style={{width:'500px',marginTop:'40px'}}>
-                    <Link href="https://patheticnews.herokuapp.com/">    
+                    <Link href="https://patheticnews.herokuapp.com/" target="blank">    
                     <img src={pnn} style={{width:'300px'}} alt=''/>
                     </Link>
                 </Paper>

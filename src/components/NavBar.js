@@ -16,15 +16,16 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    fontFamily: "jedi",
+    fontFamily: "montserrat",
     fontSize:"xx-large",
+    color:"black",
   },
   shadow: {
     webkitBoxShadow: '0px 5px 5px 0px rgba(220, 220, 220, 0.25)',
       mozBoxShadow:    '0px 5px 5px 0px rgba(220, 220, 220, 0.25)',
     boxShadow:         '0px 5px 5px 0px rgba(220, 220, 220, 0.25)',
-    backgroundColor:'black',borderBottom:'1px solid grey',
-    fontFamily: 'jedi',
+    backgroundColor:'white',borderBottom:'1px solid grey',
+    fontFamily: 'montserrat',
   }
 
 }));

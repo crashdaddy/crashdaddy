@@ -7,7 +7,7 @@ import { Link, withRouter } from "react-router-dom";
 function ShowBlog(props, p) {
  
   return (
-    <div className={`col-md-4 col-sm-6 col-xs-12 ${c.grid}`} style={{width:'18%',margin:'20px',flexDirection:'row',float:'left'}}>
+    <div className={`col-md-4 col-sm-6 col-xs-12 ${c.grid}`} style={{width:'35%',margin:'20px',flexDirection:'row',float:'left'}}>
       <div className={c.cardsmall}>
         <div
           className={c.cardpost__image}
@@ -29,13 +29,12 @@ function ShowBlog(props, p) {
         <div className="card-body">
           <h5 className="card-title">
             
-            <Link
-              to={props.link}
+            <a href={props.link}
               className={c.textfiordblue}
-
+              target="blank"
             >
               {props.title}
-            </Link>
+            </a>
           </h5>
 
           <p className={c.cardText}>{`${ToText(

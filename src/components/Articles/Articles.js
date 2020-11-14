@@ -83,6 +83,7 @@ export class Blog extends Component {
     return (
       <div className="container">
         <div className="row">
+          <h1>These are my most recent technical articles on Medium.com</h1>
           {/* {this.state.item.map((post, index) => (
           <ShowBlog key={index} {...post} {...this.state.profile} {...index} />
         ))} */}

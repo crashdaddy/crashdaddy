@@ -9,23 +9,11 @@ const imgClass={width:'300px',float:'left',paddingRight:'10px'}
 const portfolioLinks = [{
     "pic":"covid19.png",
     "link":"http://covidupdater.herokuapp.com/",
-    "text":"A quarantine project I worked on with a classmate. This is actually our second covid tracker app, because the first was using a data source that got taken down"
+    "text":"A quarantine project I worked on with a classmate. This was actually our second covid tracker app, because the first was using a data source that got taken down."
 },{
     "pic":"puzzley19.png",
     "link":"https://puzlr.herokuapp.com/",
-    "text":"This was my capstone app for ACA. It's a project I've wanted to do for years. It uses the Unsplash API to deliver images and a proprietary algorithm to segment the images into puzzles that can be solved using Rubik's Cube-like motions."
-},{
-    "pic":"bier2.png",
-    "link":"https://bierbitte.herokuapp.com/",
-    "text":"Some apps don't do anything. This was an early exercise in reading API data and using React, so it just shows information about different beers and some filters. I used it as an opportunity to practice the infinite-scrolling method of API data presentation"
-},{
-    "pic":"hangmanprog2.png",
-    "link":"https://hangmanfun.netlify.app/",
-    "text":"Learning basic skills shouldn't have to be boring. This was one of our first projects at Austin Coding Academy."
-},{
-    "pic":"phonodex2.png",
-    "link":"https://phonodex.herokuapp.com/",
-    "text":"This is a good filler data API that I used to practice my infinite-scroll technique."
+    "text":"This is Puzlr. It was my capstone app for ACA. It's a project I've secretly wanted to do for years, because I enjoy working with multi-dimensional arrays and matrices. It uses the Unsplash API to deliver images and a proprietary algorithm to segment the images into puzzles that can be solved using Rubik's Cube-like motions."
 },{
     "pic":"swarsapi3.png",
     "link":"https://swarsapi.herokuapp.com/",
@@ -34,6 +22,18 @@ const portfolioLinks = [{
     "pic":"pnn7.png",
     "link":"https://patheticnews.herokuapp.com/",
     "text":"This is another project I've often fantasized about; reverse-engineering the comment section of Reddit! This was a team project that we worked on to deliver data from the Hacker News API. We used infinite-scrolling on this one as well, adapting it for use with React, and also recursive nesting of the comments for each article."
+},{
+    "pic":"bier2.png",
+    "link":"https://bierbitte.herokuapp.com/",
+    "text":"Some apps don't do much of anything. They're mostly for practice. This was an early exercise in reading API data and using React, so it just shows information about different beers and some filters. I used it as an opportunity to practice the infinite-scrolling method of API data presentation."
+},{
+    "pic":"hangmanprog2.png",
+    "link":"https://hangmanfun.netlify.app/",
+    "text":"Learning basic skills shouldn't have to be boring. This was one of our first projects at Austin Coding Academy. Sometimes people get the idea that they're doing it one way now, but would do it differently if it was 'for real,' but I think you get more from it if you always do it like it's 'for real.'"
+},{
+    "pic":"phonodex2.png",
+    "link":"https://phonodex.herokuapp.com/",
+    "text":"This is a good filler data API that I used when learning my infinite-scroll technique. By tracking the vertical scrollbar, you can tell if the user is near the bottom of the page and load more data. I wrote an article explaining exactly how to do it at https://medium.com/@kennethscoggins/using-the-infinite-scrolling-method-to-fetch-api-data-in-reactjs-c008b2b3a8b9"
 }]
 
 class Portfolio extends Component {

@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     flexWrap: 'row nowrap',
     justifyContent: 'space-around',
+    padding: '5px',
   }
 
 }));

@@ -83,12 +83,10 @@ export class Blog extends Component {
     return (
       <div className="container">
         <div className="row">
-          <h1>These are my most recent technical articles on Medium.com</h1>
-          {/* {this.state.item.map((post, index) => (
-          <ShowBlog key={index} {...post} {...this.state.profile} {...index} />
-        ))} */}
-
+          <h1>These are my most recent technical articles on <a href="https://medium.com/@kennethscoggins">Medium.com</a></h1>
+          <div style={{display:'flex',flexDirection:'row',flexWrap:'wrap',justifyContent:'space-around',alignItems:'flex-start'}}>
           {post}
+          </div>
         </div>
 
       </div>

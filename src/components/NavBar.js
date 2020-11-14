@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontFamily: "montserrat",
-    fontSize:"xx-large",
+    fontSize:"x-large",
     color:"black",
   },
   shadow: {
@@ -59,6 +59,8 @@ export default function ButtonAppBar() {
             <Link to="/portfolio" >Portfolio</Link>
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
             <Link to="/resume" >Resume</Link>
+            <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
+            <Link to="/articles" >Articles</Link>
           </Typography>
           </div>
         {/* </Toolbar> */}

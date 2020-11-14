@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.portfolioClass {
+  margin: 20px;
+  text-align: left;
+  font-size: x-large;
+  font-weight: 700;
+}

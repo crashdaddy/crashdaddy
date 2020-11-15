@@ -9,15 +9,16 @@ class Resume extends Component {
                 <Paper elevation={3} style={{paddingTop:'20px',paddingRight:'80px',paddingLeft:'80px',paddingBottom:'20px'}}>
                 <span className="resumeTitles"><b>Objective:</b></span><br/>
                 <p>I am seeking a developer position, preferably working with a MERN stack, though I'm also proficient with Microsoft Visual Studio. 
-                   I enjoy complex, dynamic projects that are heavily data-driven and interactive. 
+                   I'm more interested in working with a team that's having an adventure than a boiler room churning money. I want a job
+                   that makes me hate vacations. I enjoy complex, dynamic projects that are heavily data-driven and interactive. 
                    Wouldn't mind helping develop a community-type application or an algorithmic focused app. 
-                   Large, complicated data sets welcome!
+                   Complicated data sets welcome!
                 </p>
                 <span className="resumeTitles"><b>Qualifications:</b></span><br/>
                 <p>
-                   I have worked with data sets containing millions or records in a realtime, dynamic environment for Safeway.
-                   I build low maintenance software: I've built data management software that has served the clients well 
-                   for years with no need for further maintenance or intervention from me.             
+                   I have worked with data sets containing millions of records in a realtime, dynamic environment for Safeway.
+                   I created a production-management package for them that they continued to use for years after I retired.
+                   I build low maintenance software with little to no need for further maintenance or intervention from me.             
                 </p>
                 <p>
                    As a team player, I've written <a href="https://medium.com/@kennethscoggins" target="blank">a series of technical articles</a> to share some of my more intricate abilities 
@@ -25,7 +26,8 @@ class Resume extends Component {
                 </p>
                 <p>
                     Coming from a generation where the software developer was responsible for personally manipulating every single pixel on the screen, 
-                    I've worked with complicated algorithms to solve seemingly impossible problems.
+                    I've worked with complicated algorithms to solve seemingly impossible problems. I don't just think the Breadth-First Search Algorithm is a good
+                    idea, but I've actually used it in practical situations because it was the best solution.
                 </p>
                 <p>
                     Even though I've been coding for years, I have recently graduated from Austin Coding Academy with their certification as Full Stack Web Developer Javascript.

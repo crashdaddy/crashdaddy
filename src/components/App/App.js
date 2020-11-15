@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import crashdaddy from './crashdaddy.png'
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 class App extends Component {
 
@@ -7,6 +8,7 @@ class App extends Component {
         return(
             <div style={{textAlign:'center',marginTop:'40px'}}>
                 <img src={crashdaddy} style={{backgroundColor:'none',color:'white',zIndex:'-1'}} /><br/>
+                <SocialIcons />
              </div>
 
         )

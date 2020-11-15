@@ -43,3 +43,8 @@
   font-size: x-large;
   font-weight: 700;
 }
+
+.resumeTitles {
+  font-size: x-large;
+  text-decoration: underline;
+}

@@ -11,7 +11,7 @@ class Resume extends Component {
                 <p>I am seeking a developer position, preferably working with a MERN stack, though I'm also proficient with Microsoft Visual Studio and a .NET environment. 
                    I'm more interested in working with a team that's having an adventure than a boiler room churning money. I want a job
                    that makes me hate vacations. I enjoy complex, dynamic projects that are heavily data-driven and interactive. 
-                   Wouldn't mind helping develop a community-type application or an algorithmic focused app. 
+                   Wouldn't mind helping develop a community-type application or an algorithmic focused app like a meme generator or something. 
                    Complicated data sets welcome!
                 </p>
                 <span className="resumeTitles"><b>Qualifications:</b></span><br/>

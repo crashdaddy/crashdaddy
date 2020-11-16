@@ -12,7 +12,7 @@ const aboutTopics = [{
     "text":"I play rock-n-roll piano, make memes on the internet, and write technical articles about programming concepts."
 },{
     "title":"Languages I've used for development",
-    "text":"BASIC, 6502 Assembly, MS-DOS, Fortran, RPG, Cobol, Pascal, HTML, PHP, Javascript, Visual Basic, React"
+    "text":"BASIC, 6502 Assembly, MS-DOS, Fortran, RPG, Cobol, Pascal, HTML, PHP, Javascript, Visual Basic, React and a little Python. Enough to know I like it, so more on that later."
 },{
     "title":"I like to be a tourist",
     "text":"I've walked about every trail in Austin, been to almost all the libraries and quite a few of the museums. My nerdy ideal first date would be Texas Memorial Museum."
@@ -28,6 +28,12 @@ const aboutTopics = [{
 },{
     "title":"Data Sources",
     "text":"When I first started, data was stored as bytes on a disk, then later as text files. My first database was DBase IV to build some auction software for a glassware business. I then went to mySql and SQL and have been using them ever since. I can use text files, csv files, JSON objects to manage data."
+},{
+    "title":"Cringey Memory",
+    "text":"I once signed up for a stand-up comedy contest and the silence of the audience was the loudest sound I've ever heard."
+},{
+    "title":"Baby You're a Star",
+    "text":"I've had the world record on two different arcade games; Robotron 2084 and Joust. I solved Rubik's Cube in 19 seconds back when the world record was 21. My memes have made Reddit's Front Page 12 times."
 }]
 
 class About extends Component {

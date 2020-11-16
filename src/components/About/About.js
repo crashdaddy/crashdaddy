@@ -27,6 +27,9 @@ const aboutTopics = [{
     "title":"I'm a veteran",
     "text":"I was in the US Army in the 80s. It was my job to guard CheckPoint Charlie in Berlin. We marched all over that town, camped out everywhere and rappelled off Hitler's bunker at midnight."
 },{
+    "title":"How I came to be in Austin",
+    "text":"It was cold where I was, but for a couple days it was in the 60s because of warm wind coming from the south, so I followed that wind and turned up here."
+},{
     "title":"Things I like",
     "text":"Zombie movies, detective novels, sitcoms. I have a million useless internet points on Reddit from making memes. I've written some fiction. I tried painting once; just enough to find out I suck."
 },{

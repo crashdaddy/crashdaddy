@@ -34,7 +34,7 @@ const aboutTopics = [{
     "text":"When I first started, data was stored as bytes on a disk, then later as text files. My first database was DBase IV to build some auction software for a glassware business. I then went to mySql and SQL and have been using them ever since. I can manage data from text files, csv files, JSON objects or whatever format you like."
 },{
     "title":"Where do you see yourself in five years?",
-    "text":"Battling motorcycle gangs over the last few drops of clean water"
+    "text":"Battling motorcycle gangs over the last few drops of clean water in a desolate landscape surrounded by zombies"
 },{
     "title":"Cringey Memory",
     "text":"I once signed up for a stand-up comedy contest and the silence of the audience was the loudest sound I've ever heard."
@@ -48,7 +48,6 @@ class About extends Component {
     render() {
 
         return(
-            <div>
             <div style={{textAlign:'center',marginTop:'40px',marginBottom:'50px',display:"flex",flexWrap:'wrap',justifyContent:'space-around'}}>
                
                {aboutTopics.map(link => (<div style={{marginLeft:'20px'}}>
@@ -58,7 +57,6 @@ class About extends Component {
                 </Paper>
                 </div>
                ))}
-             </div>
              </div>
 
         )

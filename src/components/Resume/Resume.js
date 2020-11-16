@@ -46,7 +46,7 @@ class Resume extends Component {
                 <span className="resumeTitles"><b>Experience:</b></span><br/>
                 <p>
                     I worked as a computer programmer for Safeway from 2007-2013. During that period I designed and created a data-management
-                    system for the entire facility. Production operators could enter realtime product measurements into a computer at their
+                    system for the entire facility using MS SQL Server and VS2007 and 30 workstations. Production operators could enter realtime product measurements into a computer at their
                     workstation, and all that data would be aggregated, measured and analyzed and available to management through their own secure website.
                 </p>
                 <p>

@@ -42,7 +42,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar className={classes.shadow} position="static">
+      <AppBar className={classes.shadow} position="fixed">
         {/* <Toolbar> */}
           <div style={{display:'flex'}}>
           <Link to="/" >

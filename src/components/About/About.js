@@ -18,6 +18,9 @@ const aboutTopics = [{
     "title":"I get around",
     "text":"I went to sixteen different schools growing up, lived in two countries, and had 42 jobs so far. I lived in one place for 20 years once, too. My last programming job was 6 years. I'm not from Texas originally, but got here as quick as I could."
 },{
+    "title":"Teamwork",
+    "text":"I do my best work as part of a team, with me as the workhorse, doing the heavy lifting so the rest of the team can focus on aesthetics, cosmetics and sexy new functionality."
+},{
     "title":"God's Algorithm",
     "text":"My Rubik's Cube software (Pascal, 97) messed up Rubik's Cube in 13 moves and solved it in 7 moves. That's some nerdy good fun right there."
 },{

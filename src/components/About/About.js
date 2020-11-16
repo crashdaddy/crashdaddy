@@ -20,6 +20,9 @@ const aboutTopics = [{
     "title":"I get around",
     "text":"I went to sixteen different schools growing up, lived in two countries, and had 42 jobs so far. I lived in one place for 20 years once, too. My last programming job was 6 years. I'm not from Texas originally, but got here as quick as I could."
 },{
+    "title":"God's Algorithm",
+    "text":"My Rubik's Cube software (Pascal, 97) messed up Rubik's Cube in 13 moves and solved it in 7 moves. That's some nerdy good fun right there."
+},{
     "title":"I'm a veteran",
     "text":"I was in the US Army in the 80s. It was my job to guard CheckPoint Charlie in Berlin. We marched all over that town, camped out everywhere and rappelled off Hitler's bunker at midnight."
 },{
@@ -33,7 +36,7 @@ const aboutTopics = [{
     "text":"I once signed up for a stand-up comedy contest and the silence of the audience was the loudest sound I've ever heard."
 },{
     "title":"Baby You're a Star",
-    "text":"I've had the world record on two different arcade games; Robotron 2084 and Joust. I solved Rubik's Cube in 19 seconds back when the world record was 21. My memes have made Reddit's Front Page 12 times."
+    "text":"I've had the world record on two different arcade games; Robotron 2084 and Joust. I solved Rubik's Cube in 19 seconds back when the world record was 21. My memes have made Reddit's Front Page 12 times. Oh, and I won a bunch of awards in the Army."
 }]
 
 class About extends Component {

@@ -4,7 +4,8 @@ import { Link } from '@material-ui/core';
 
 const cardClass = {marginTop:"20px",marginBottom:"20px",width:"80%",padding:"20px",textAlign:"left"}
 
-const imgClass={width:'300px',float:'left',paddingRight:'10px'}
+const imgClass={width:'300px',float:'left',marginRight:'20px',webkitBoxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)', 
+boxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)'}
 
 const portfolioLinks = [{
     "pic":"covid19.png",
@@ -45,11 +46,10 @@ class Portfolio extends Component {
             <div style={{textAlign:'center',marginTop:'40px',marginBottom:'50px',display:"flex",flexWrap:'wrap',justifyContent:'space-around'}}>
                 <span style={{textAlign:'left',width:'80%'}}><h1>These are apps I built or worked on with other students during my course at Austin Coding Academy</h1></span><br/>
                {portfolioLinks.map(link => (<Paper elevation={3} style={cardClass}>
-                    <Link href={link.link} target="blank">    
-                    <img src={link.pic} style={imgClass} alt='himom'/>
-                   
-                    </Link>
-                    <span style={{fontSize:'24px'}}>{link.text}</span>
+                <Link href={link.link} target="blank">    
+                <img src={link.pic} style={imgClass} alt='himom'/>
+                </Link>
+                <span style={{fontSize:'24px'}}>{link.text}</span>
                 </Paper>
                ))}
              </div>

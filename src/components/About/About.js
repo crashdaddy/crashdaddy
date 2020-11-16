@@ -5,8 +5,6 @@ import { Link } from '@material-ui/core';
 
 const cardClass = {marginTop:"20px",marginBottom:"20px",width:"80%",padding:"20px",textAlign:"left"}
 
-const imgClass={width:'300px',float:'left',paddingRight:'10px'}
-
 const aboutTopics = [{
     "title":"Hobbies",
     "text":"I play rock-n-roll piano, make memes on the internet, and write technical articles about programming concepts."
@@ -30,7 +28,7 @@ const aboutTopics = [{
     "text":"Zombie movies, detective novels, sitcoms. I have a million useless internet points on Reddit from making memes. I've written some fiction. I tried painting once; just enough to find out I suck."
 },{
     "title":"Data Sources",
-    "text":"When I first started, data was stored as bytes on a disk, then later as text files. My first database was DBase IV to build some auction software for a glassware business. I then went to mySql and SQL and have been using them ever since. I can use text files, csv files, JSON objects to manage data."
+    "text":"When I first started, data was stored as bytes on a disk, then later as text files. My first database was DBase IV to build some auction software for a glassware business. I then went to mySql and SQL and have been using them ever since. I can manage data from text files, csv files, JSON objects or whatever format you like."
 },{
     "title":"Where do you see yourself in five years?",
     "text":"Battling motorcycle gangs over the last few drops of clean water"

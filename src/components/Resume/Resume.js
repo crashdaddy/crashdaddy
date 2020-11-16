@@ -5,7 +5,8 @@ class Resume extends Component {
 
     render() {
         return(
-            <div style={{textAlign:'center',marginTop:'40px',width:'70%',marginLeft:'auto',marginRight:'auto',marginBottom:'80px'}}>
+            <div>
+            <div style={{textAlign:'center',marginTop:'80px',width:'70%',marginLeft:'auto',marginRight:'auto',marginBottom:'80px'}}>
                 <Paper elevation={3} style={{paddingTop:'20px',paddingRight:'80px',paddingLeft:'80px',paddingBottom:'20px'}}>
                 <span className="resumeTitles"><b>Objective:</b></span><br/>
                 <p>I am seeking a developer position, preferably working with a MERN stack, though I'm also proficient with Microsoft Visual Studio and a .NET environment. 
@@ -56,7 +57,7 @@ class Resume extends Component {
                 References are available upon request
                 </Paper>
              </div>
-
+             </div>
         )
     }
 }

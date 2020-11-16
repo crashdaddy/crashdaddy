@@ -81,7 +81,7 @@ export class Blog extends Component {
       );
     }
     return (
-      <div className="container" style={{marginBottom:'20px'}}>
+      <div className="container" style={{marginBottom:'20px',marginTop:'80px'}}>
         <div className="row">
         <span><h1>&nbsp;&nbsp;&nbsp;These are my most recent technical articles on <a href="https://medium.com/@kennethscoggins">Medium.com</a></h1></span>
           <div style={{display:'flex',flexDirection:'row',flexWrap:'wrap',justifyContent:'space-around',alignItems:'flex-start'}}>

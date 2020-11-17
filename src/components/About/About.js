@@ -10,7 +10,7 @@ const aboutTopics = [{
     "text":"I play rock-n-roll piano, make memes on the internet, and write technical articles about programming concepts."
 },{
     "title":"Languages I've used for development",
-    "text":"BASIC, 6502 Assembly, MS-DOS, Fortran, RPG, Cobol, Pascal, HTML, PHP, Javascript, Visual Basic, React and a little Python. Enough to know I like it, so more on that later."
+    "text":"BASIC, 6502 Assembly, MS-DOS, Pascal, HTML, PHP, Javascript, Visual Basic .NET, React and a little Python. Enough to know I like it, so more on that later."
 },{
     "title":"I like to be a tourist",
     "text":"I've walked about every trail in Austin, been to almost all the libraries and quite a few of the museums. My nerdy ideal first date would be Texas Memorial Museum."
@@ -34,7 +34,7 @@ const aboutTopics = [{
     "text":"Zombie movies, detective novels, sitcoms. I have a million useless internet points on Reddit from making memes. I've written some fiction. I tried painting once; just enough to find out I suck."
 },{
     "title":"Data Sources",
-    "text":"When I first started, data was stored as bytes on a disk, then later as text files. My first database was DBase IV to build some auction software for a glassware business. I then went to mySql and SQL and have been using them ever since. I can manage data from text files, csv files, JSON objects or whatever format you like."
+    "text":"When I first started programming, I had no storage. Whatever I typed would disappear when I turned off the computer. Later it was stored as bytes on a disk, then after that as text files. My first database was DBase IV to build some auction software for a glassware business. I then went to mySql and SQL and have been using them ever since. I can manage data from text files, csv files, JSON objects or whatever format you like."
 },{
     "title":"Where do you see yourself in five years?",
     "text":"Battling motorcycle gangs over the last few drops of clean water in a desolate landscape surrounded by zombies or a successful app developer with a robust lifestyle."

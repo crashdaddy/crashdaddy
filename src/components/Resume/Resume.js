@@ -31,8 +31,8 @@ class Resume extends Component {
                     idea, but I've actually used it in practical situations because it was the best solution.
                 </p>
                 <p>
-                    Even though I've been coding for years, I have recently graduated from Austin Coding Academy with their certification as Full Stack Web Developer Javascript.
-                    Their course has caught me up to date with the current development paradigm. I really like the new levels of flexibility and interoperability
+                    I have recently graduated from Austin Coding Academy with their certification as Full Stack Web Developer Javascript.
+                    Their course has caught me up to date with the current development paradigm. I really appreciate the new levels of flexibility and interoperability
                     that have been achieved in programming.
                 </p>
                 <span className="resumeTitles"><b>Education:</b></span> <br/>

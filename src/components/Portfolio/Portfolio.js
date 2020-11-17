@@ -44,7 +44,7 @@ class Portfolio extends Component {
         return(
             <div>
             <div style={{textAlign:'center',marginTop:'60px',marginBottom:'50px',display:"flex",flexWrap:'wrap',justifyContent:'space-around'}}>
-                <span style={{textAlign:'left',width:'80%'}}><h1>These are apps I built or worked on with other students during my course at Austin Coding Academy</h1></span><br/>
+                <span style={{textAlign:'left',width:'80%'}}><h1>Here are some apps I built or worked on with other students during my course at Austin Coding Academy</h1></span><br/>
                {portfolioLinks.map(link => (<Paper elevation={3} style={cardClass}>
                 <Link href={link.link} target="blank">    
                 <img src={link.pic} style={imgClass} alt='himom'/>

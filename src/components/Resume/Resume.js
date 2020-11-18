@@ -15,7 +15,10 @@ class Resume extends Component {
                    I'm more interested in working with a team that's having an adventure than a boiler room churning money. I want a job
                    that makes me hate vacations. I enjoy complex, dynamic projects that are heavily data-driven and interactive. 
                    Wouldn't mind helping develop a community-type application or an algorithmic focused app like a meme generator or something. 
-                   Complicated data sets welcome!
+                   Complicated data sets welcome!<br/>                    
+                   <p/>
+                   I've developed software to solve Rubik's Cube and play piano. I've built games, libraries, tools. I've almost constantly had a website
+                   of my own; usually a community site where I can create apps and people can play with them.
                 </p>
                 <span className="resumeTitles"><b>Technical Skills:</b></span><br/>
                 <p>
@@ -53,10 +56,6 @@ class Resume extends Component {
                     I worked as a computer programmer for Safeway from 2007-2013. During that period I designed and created a data-management
                     system for the entire facility using MS SQL Server and VS2007 and 30 workstations. Production operators could enter realtime product measurements into a computer at their
                     workstation, and all that data would be aggregated, measured and analyzed and available to management through their own secure website.
-                </p>
-                <p>
-                    I've developed software to solve Rubik's Cube and play piano. I've built games, libraries, tools. I've almost constantly had a website
-                    of my own; usually a community site where I can create apps and people can play with them.
                 </p>
                 <span className="resumeTitles"><b>References:</b></span><br/>
                 References are available upon request

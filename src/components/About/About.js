@@ -43,7 +43,7 @@ const aboutTopics = [{
     "text":"I once signed up for a stand-up comedy contest and the silence of the audience was the loudest sound I've ever heard."
 },{
     "title":"Baby You're a Star",
-    "text":"I've had the world record on two different arcade games; Robotron 2084 and Joust. I solved Rubik's Cube in 19 seconds back when the world record was 21. My memes have made Reddit's Front Page 12 times. Oh, and I won a bunch of awards in the Army."
+    "text":"I've had the world record on two different arcade games; Robotron 2084 and Joust. I solved Rubik's Cube in 19 seconds back when the world record was 21. My memes have made Reddit's Front Page 12 times. Four of my articles have been republished in professional magazines. Oh, and I won a bunch of awards in the Army."
 }]
 
 class About extends Component {

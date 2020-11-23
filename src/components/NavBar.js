@@ -52,9 +52,9 @@ export default function ButtonAppBar() {
             crashdaddy
           </Typography>
           </div>
-          <div style={{width:'40%'}}></div>
+          <div style={{width:'35%'}}></div>
           <div>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" className={classes.title} style={{marginRight:"20px"}}>
             <Link to="/about" >About Me</Link>
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
             <Link to="/portfolio" >Portfolio</Link>
@@ -62,6 +62,8 @@ export default function ButtonAppBar() {
             <Link to="/resume" >Resume</Link>
             <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
             <Link to="/articles" >Articles</Link>
+            <span style={{fontSize:'large',verticalAlign:'middle',margin:'5px'}}> * </span>
+            <Link to="/puzlr" >Puzlr Ad</Link>
           </Typography>
           </div>
         {/* </Toolbar> */}

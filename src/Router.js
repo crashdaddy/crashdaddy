@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio';
 import Resume from './components/Resume/Resume';
 import Articles from './components/Articles/Articles';
+import Puzlr from './components/Puzlr/Puzlr';
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
             <Route path="/portfolio" component={Portfolio}/>
             <Route path="/resume" component={Resume}/>
             <Route path="/articles" component={Articles}/>
+            <Route path="/puzlr" component={Puzlr}/>
         </Switch>
     )
 }

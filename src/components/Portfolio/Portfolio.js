@@ -10,7 +10,7 @@ boxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)'}
 const portfolioLinks = [{
     "pic":"newshound1.png",
     "link":"http://newshound.herokuapp.com/",
-    "text":"My current project. I'm collecting RSS news feeds from different agencies and displaying them according to their political leanings."
+    "text":"My current project is called Newshound. I'm collecting RSS news feeds from different agencies and displaying them according to their political leanings."
 },{
     "pic":"covid19.png",
     "link":"http://covidupdater.herokuapp.com/",

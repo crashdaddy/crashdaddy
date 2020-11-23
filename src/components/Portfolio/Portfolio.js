@@ -8,6 +8,10 @@ const imgClass={width:'300px',float:'left',marginRight:'20px',webkitBoxShadow: '
 boxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)'}
 
 const portfolioLinks = [{
+    "pic":"newshound1.png",
+    "link":"http://newshound.herokuapp.com/",
+    "text":"My current project. I'm collecting RSS news feeds from different agencies and displaying them according to their political leanings."
+},{
     "pic":"covid19.png",
     "link":"http://covidupdater.herokuapp.com/",
     "text":"A quarantine project I worked on with a classmate. This was actually our second covid tracker app, because the first was using a data source that got taken down."

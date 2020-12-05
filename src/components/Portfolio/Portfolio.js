@@ -28,6 +28,10 @@ const portfolioLinks = [{
     "link":"https://patheticnews.herokuapp.com/",
     "text":"This is another project I've often fantasized about; reverse-engineering the comment section of Reddit! This was a team project that we worked on to deliver data from the Hacker News API. We used infinite-scrolling on this one as well, adapting it for use with React, and also recursive nesting of the comments for each article."
 },{
+    "pic":"pokepaedia2.png",
+    "link":"https://pokepaedia.herokuapp.com/",
+    "text":"Here's an implementation of the PokeApi that uses React and fetch-chaining. It's for practice nesting components into other components. 'It's components all the way down!' - M Scott"
+},{
     "pic":"bier2.png",
     "link":"https://bierbitte.herokuapp.com/",
     "text":"Some apps don't do much of anything. They're mostly for practice. This was an early exercise in reading API data and using React, so it just shows information about different beers and some filters. I used it as an opportunity to practice the infinite-scrolling method of API data presentation."

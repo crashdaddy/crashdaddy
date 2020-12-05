@@ -30,7 +30,7 @@ const portfolioLinks = [{
 },{
     "pic":"pokepaedia2.png",
     "link":"https://pokepaedia.herokuapp.com/",
-    "text":"Here's an implementation of the PokeApi that uses React and fetch-chaining. It's for practice nesting components into other components. 'It's components all the way down!' - M Scott"
+    "text":"Here's an implementation of the PokeApi that uses React and fetch-chaining. I call it 'Pokepaedia' just because I like having a use for the æ symbol. It's for practice nesting components into other components. 'It's components all the way down!' - M Scott"
 },{
     "pic":"bier2.png",
     "link":"https://bierbitte.herokuapp.com/",

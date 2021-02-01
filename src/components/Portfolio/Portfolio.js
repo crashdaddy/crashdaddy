@@ -8,10 +8,10 @@ const imgClass={width:'300px',float:'left',marginRight:'20px',webkitBoxShadow: '
 boxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)'}
 
  const portfolioLinks = [
-//{     "pic":"newshound1.png",
-//     "link":"http://newshound.herokuapp.com/",
-//     "text":"My current project is called Newshound. I'm collecting RSS news feeds from different agencies and displaying them according to their political leanings."
-// },
+{     "pic":"brainium.png",
+     "link":"http://brainium.herokuapp.com/",
+     "text":"A classmate and I developed Brainium in one day just for fun and practice.  It's a full-stack trivia game, based on the Open Trivia DB API. It's really hard."
+ },
 {
     "pic":"covid19.png",
     "link":"http://covidupdater.herokuapp.com/",

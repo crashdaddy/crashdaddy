@@ -10,7 +10,7 @@ boxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)'}
  const portfolioLinks = [
 {     "pic":"brainium.png",
      "link":"http://brainium.herokuapp.com/",
-     "text":"A classmate and I developed Brainium in one day just for fun and practice.  It's a full-stack trivia game, based on the Open Trivia DB API. It's really hard."
+     "text":"A classmate and I developed Brainium in one day just for fun and practice.  It's a full-stack trivia game, based on the Open Trivia DB API. It's also really hard."
  },
 {
     "pic":"covid19.png",
@@ -23,7 +23,7 @@ boxShadow: '5px 5px 15px -3px rgba(0,0,0,0.61)'}
 },{
     "pic":"swarsapi3.png",
     "link":"https://swarsapi.herokuapp.com/",
-    "text":"The Star Wars API (https://swapi.dev/) is one of the funnest data sets for sci-fi nerds to train with. This implementation uses fetch-chaining to get that deep data. "
+    "text":"The Star Wars API (https://swapi.dev/) is one of the funnest data sets for sci-fi nerds to train with. This implementation uses fetch-chaining to get that deep data. This app won #1 App-Of-The-Week on Career Karma!"
 },{
     "pic":"pnn7.png",
     "link":"https://patheticnews.herokuapp.com/",

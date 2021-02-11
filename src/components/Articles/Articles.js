@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Axios from "axios";
 import ShowBlog from "./ShowBlog";
-// import Spinner from "../Spinner/Spinner";
+import Spinner from "./Spinner";
 
 
 export class Blog extends Component {
@@ -68,7 +68,7 @@ export class Blog extends Component {
       ))
     }
     if (this.state.isloading) {
-    //   post = <Spinner />
+    post = <Spinner />
     }
     if (this.state.error) {
       let error = this.state.error.code ? this.state.error.code : this.state.error.name;

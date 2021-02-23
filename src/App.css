@@ -1,5 +1,26 @@
+@font-face {
+  font-family: ODRegular;
+  src: url('./css/OpenDyslexic-Regular.otf')
+}
+
+@font-face {
+  font-family: ODBold;
+  src: url('./css/OpenDyslexic-Bold.otf')
+}
+
+@font-face {
+  font-family: ODItalic;
+  src: url('./css/OpenDyslexic-Italic.otf')
+}
+
+@font-face {
+  font-family: ODBoldItalic;
+  src: url('./css/OpenDyslexic-BoldItalic.otf')
+}
+
 .App {
   text-align: center;
+  font-family: ODRegular;
 }
 
 .App-logo {

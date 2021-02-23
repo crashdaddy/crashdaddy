@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../../App.css';
 
 import Paper from '@material-ui/core/Paper';
 import { Link } from '@material-ui/core';
@@ -6,6 +7,10 @@ import { Link } from '@material-ui/core';
 const cardClass = {marginTop:"20px",marginBottom:"20px",width:"80%",padding:"20px",textAlign:"left"}
 
 const aboutTopics = [{
+    "title":"Accessibility",
+    "text":`This page uses the Open-Dyslexia font to provide more enhanced legibility for those with Dyslexia. 
+    This custom font's weighted bottoms and expanded kerning are supposed to make it easier to follow the flow of the letters.`
+},{
     "title":"Hobbies",
     "text":"I play rock-n-roll piano, make memes on the internet, and write technical articles about programming concepts."
 },{
@@ -51,7 +56,7 @@ class About extends Component {
     render() {
 
         return(
-            <div style={{textAlign:'center',marginTop:'40px',marginBottom:'50px',display:"flex",flexWrap:'wrap',justifyContent:'space-around'}}>
+            <div className="App" style={{textAlign:'center',marginTop:'40px',marginBottom:'50px',display:"flex",flexWrap:'wrap',justifyContent:'space-around'}}>
                
                {aboutTopics.map(link => (<div style={{marginLeft:'20px'}}>
                 <span style={{textAlign:'left',marginLeft:'20px',width:'80%'}}><h1>{link.title}</h1></span><br/>    

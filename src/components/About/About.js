@@ -8,7 +8,7 @@ const cardClass = {marginTop:"20px",marginBottom:"20px",width:"80%",padding:"20p
 
 const aboutTopics = [{
     "title":"Accessibility",
-    "text":`This page uses the Open-Dyslexia font to provide more enhanced legibility for those with Dyslexia. 
+    "text":`This page uses the Open-Dyslexic font to provide more enhanced legibility for those with Dyslexia. 
     This custom font's weighted bottoms and expanded kerning are supposed to make it easier to follow the flow of the letters.`
 },{
     "title":"Hobbies",

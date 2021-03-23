@@ -7,10 +7,6 @@ import { Link } from '@material-ui/core';
 const cardClass = {marginTop:"20px",marginBottom:"20px",width:"80%",padding:"20px",textAlign:"left"}
 
 const aboutTopics = [{
-    "title":"Accessibility",
-    "text":`This page uses the Open-Dyslexic font to provide more enhanced legibility for those with Dyslexia. 
-    This custom font's weighted bottoms and expanded kerning are supposed to make it easier to follow the flow of the letters.`
-},{
     "title":"Hobbies",
     "text":"I play rock-n-roll piano, make memes on the internet, and write technical articles about programming concepts."
 },{

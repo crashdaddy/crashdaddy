@@ -8,7 +8,7 @@ class Resume extends Component {
             <div>
             <div style={{textAlign:'left',marginTop:'80px',width:'70%',marginLeft:'auto',marginRight:'auto',marginBottom:'80px'}}>
                 <Paper elevation={3} style={{paddingTop:'30px',paddingRight:'80px',paddingLeft:'80px',paddingBottom:'40px'}}>
-                <span style={{fontSize:'36px'}}><b>Kenneth E. Scoggins</b></span> <br/>309 E 11th St #301, Austin, TX 78701 kennethscoggins@mail.com <br/>
+                <span style={{fontSize:'36px'}}><b>Kenneth E. Scoggins</b></span> <br/>Austin, TX 78701 kennethscoggins@mail.com <br/>
                 <p/>
                 <span className="resumeTitles"><b>About Me:</b></span><br/>
                 <p>I am seeking a developer position, preferably working with a MERN stack, though I'm also proficient with Microsoft Visual Studio and a .NET environment. 

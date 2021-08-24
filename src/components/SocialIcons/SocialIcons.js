@@ -11,7 +11,7 @@ function SocialIcons() {
       <a href="https://www.reddit.com/user/crashdaddy" target="blank"><RedditIcon className="socialIcons" style={{width:'32px',height:'32px'}} /></a>
       <a href="https://www.facebook.com/eddie.salazar.526875" target="blank"><FacebookIcon className="socialIcons" style={{width:'32px',height:'32px'}} /></a>
       <a href="https://twitter.com/crashdaddy4" target="blank"><TwitterIcon className="socialIcons" style={{width:'32px',height:'32px'}} /></a>
-      <a href="https://www.linkedin.com/in/kenneth-scoggins-464a48197/" target="blank"><LinkedInIcon className="socialIcons" style={{width:'32px',height:'32px'}} /></a>
+      <a href="https://www.linkedin.com/in/kenny-scoggins-9b292b21a/" target="blank"><LinkedInIcon className="socialIcons" style={{width:'32px',height:'32px'}} /></a>
       <a href="https://github.com/crashdaddy" target="blank"><GitHubIcon className="socialIcons" style={{width:'32px',height:'32px'}} /></a>
   </div>
 }
